@@ -1,0 +1,8 @@
+{
+  "intervalSeconds": 30,
+  "timeoutMs": 4000,
+  "checks": [
+    { "name": "Example web service", "type": "http", "url": "https://example.com", "expectedStatus": 200 },
+    { "name": "Example TCP service", "type": "tcp", "host": "127.0.0.1", "port": 25565 }
+  ]
+}
